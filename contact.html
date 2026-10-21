@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+}
+p{
+    display: inline-block;
+}
+section{
+    display: inline-block;
+}
+dl{
+    display: inline-block;
+}
+
+label{
+    display: inline-block;
+}
+table{
+    display: inline-block;
+}
+legend{
+    display: inline-block;
+}
+footer{
+    display: inline-block;
+}
+</style>
+<body>
+    <div style="text-align: center;">
+
+        <header>
+            <div class="header-title">Bacani's Midterm Portfolio</div>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="services.html">Services</a> |
+                <a href="media.html">Media</a> |
+                <a href="contact.html">Contact</a> |
+            </nav>
+        </header>
+
+        <hr>
+
+    <section id="contact" class="tab-content">
+        <h2>Contact</h2>
+        <form actiom="#" method="POST">
+            <fieldset>
+                <Legend>Form</Legend>
+                <p>
+                    <label for="Full Name">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </p> 
+                <br>
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                </p> 
+                <br>
+                <label for="Inquire Type">Inquire Type:</label>
+                <input type="text" id="inquires" name="inquires" list="inquierer" required>
+
+                <datalist id="inquierer">
+              <option value="Prices">
+              <option value="Payment">
+              <option value="Question">
+              <option value="Job services">
+            </datalist> <br>
+
+            <br>
+
+                <label for="messenger">Message</label> 
+                <textarea id="messenger" name="messenger" rows="3" required minlength="3"></textarea>
+            </fieldset>
+        </form>
+    </section>
+
+    <hr>
+
+    <footer>
+        <div class="footer-links">
+          <a href="/about">About Us</a> |
+          <a href="/privacy">Privacy Policy</a> |
+          <a href="https://mail.google.com/mail/u/20246812@s.ubaguio.edu">Contact</a>
+        </div>
+                  <p>&copy; Developed by Bacani HUMCOM.COM </p>
+              </footer>
+        </div>
+</div>
+</body>
+</html>
